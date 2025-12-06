@@ -1,0 +1,56 @@
+---
+title: "semana 14"
+format: html
+editor: visual
+---
+
+# 1. CREAR DATOS SIMULADOS
+
+```{r}
+set.seed(123)
+
+n <- 120
+IMC <- rnorm(n, 27, 4)
+Edad <- rnorm(n, 45, 10)
+Actividad <- rnorm(n, 3, 1)
+Dias_hospitalizado <- 5 + 0.8*IMC - 0.3*Actividad + 0.1*Edad + rnorm(n, 0, 2)
+
+datos <- data.frame(IMC, Edad, Actividad, Dias_hospitalizado)
+```
+
+# 2. ANÁLISIS UNIVARIADO
+
+# Resumen estadístico general
+
+```{r}
+summary(datos)
+```
+
+# Primeras 6 filas
+
+```{r}
+head(datos)
+```
+
+# Histograma de cada variable (opcional)
+
+```{r}
+hist(datos$IMC, main="Histograma IMC")
+hist(datos$Edad, main="Histograma Edad")
+hist(datos$Actividad, main="Histograma Actividad")
+hist(datos$Dias_hospitalizado, main="Histograma Días Hospitalizado")
+```
+
+# 3. ANÁLISIS DE REGRESIÓN (MODELO MULTIVARIADO)
+
+# Modelo múltiple
+
+```{r}
+modelo_multiple <- lm(Dias_hospitalizado ~ IMC + Edad + Actividad, data = datos)
+```
+
+# Resumen del modelo 
+
+```{r}
+summary(modelo_multiple)
+```
