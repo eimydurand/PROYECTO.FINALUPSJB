@@ -1,0 +1,22 @@
+---
+title: "SEMANA 6"
+author: "Grupo 4"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Para limpiar una data para utilizar una columna específica debemos hacer lo siguiente:
+
+```{r}
+# Cargar data nueva
+data<- read_csv("C:/Users/User/Downloads/covid_19_diabetes.csv")
+```
+
+```{r}
+# Limpiar data de columnas que contengas filas con NA
+data_limpia<-data[!is.na(data$Temperatura), ]
+```
+
+Y eso sería todo.
