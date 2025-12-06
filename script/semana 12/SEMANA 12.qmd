@@ -1,0 +1,76 @@
+---
+title: "SEMANA 12"
+author: "Grupo 4"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Calcularemos las Medidas de Dispersión, que son:
+
+-Varianza
+
+-Desviación estándar
+
+-Rango
+
+-Rango Intercuartilico
+
+```{r}
+# Importar el archivo con el cual se va a trabajar
+data<- read_csv("C:/Users/User/Downloads/covid_19_diabetes.csv")
+```
+
+```{r}
+#estructura de la data
+str(data)
+```
+
+```{r}
+#medidas de dispersión
+#varianza
+var(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#desviacion estandar
+sd(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#rango
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#Rango intercuartilico
+IQR(data$Edad,na.rm = TRUE)
+```
+
+Ahora las medidas de posición (Cuartiles):
+
+```{r}
+# Medidas de posición
+quantile(data$Edad,probs =c(0.25,0.50,0.75,0.90),na.rm = TRUE)
+```
+
+Script para visualizar las 6 primeras filas:
+
+```{r}
+#ver las 6 primeras filas de la data
+head(data)
+```
+
+Script para poder visualizar un resumen de dichas medidas:
+
+```{r}
+#resumen de todas las variables
+summary(data)
+```
+
+```{r}
+summary(data$Edad)
+```
+
+Eso es todo.
