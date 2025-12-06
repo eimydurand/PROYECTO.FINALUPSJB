@@ -1,0 +1,24 @@
+---
+title: "grupo 4"
+author: "grupo 4"
+format: html
+editor: visual
+---
+
+#instalamos paquete . Donde dice packages ponemos install y el nombre del paquete.
+
+#importamos data
+
+```{r}
+data<- read_csv("covid_19_diabetes.csv")
+```
+
+#creamos el histograma
+
+```{r}
+#| echo: false
+hist(data$Edad)
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
