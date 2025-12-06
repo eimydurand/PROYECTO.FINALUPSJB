@@ -1,0 +1,49 @@
+---
+title: "SEMANA 10"
+author: "Grupo 4"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Calcularemos las medidas de tendencia central que son:
+
+-Media aritmética
+
+-Mediana
+
+-Moda
+
+```{r}
+# Importar el archivo con el cual se va a trabajar
+data<- read_csv("C:/Users/User/Downloads/covid_19_diabetes.csv")
+```
+
+```{r}
+#ver las 6 primeras filas de la data
+head(data)
+```
+
+```{r}
+#estructura de la data
+str(data)
+```
+
+```{r}
+# Medidas de tendencia central
+# media aritmetica
+mean(data$Edad)
+```
+
+```{r}
+#mediana
+median(data$Edad)
+```
+
+```{r}
+#moda
+mode_Edad<-names(sort(table(data$Edad),decreasing = TRUE))
+```
+
+Y así es como habremos calculado las medidas de tendencia central.
