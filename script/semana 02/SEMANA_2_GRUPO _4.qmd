@@ -1,0 +1,56 @@
+---
+title: "SEMANA 2"
+author: ""GRUPO _4 ""
+format: html
+editor: visual
+---
+
+## INTEGRANTES: 
+
+1.- Balbin Arce Celeste
+
+2.- Cristiam Snayders Marcos
+
+3.- Durand Galindo Eimy Naomy
+
+4.- Juarez Leon Nicoll Victoria
+
+5.- Rospigliosi Mendoza Camila
+
+##  #COMO CREAR UNA PROYECTO EN Rstudio.: 
+
+#TERCER PASO: Una vez realizados esos pasos nos saldra otra barra en la cual tendremos que eligir Nuevo proyecto (NEW PROJECT)
+
+#CUARTO PASO: Luego de aver realizado todo esos pasos nos saldra Create New Project, en lo cual colocaremos el nombre de nuestro proyecto.
+
+#QUINTO PASO: Despues en ese mismo lugar tendremos la opcion de poder direccionar nuestro Proyecto por ejemplo si queremos que este (Escritorio,descargas, etc)
+
+#SEXTO: Como ultimo paso le daremos clik en open para poder guardar nuestro proyecto de lo cual nuestro proyecto esta listo par poder es utilizado.
+
+#PRIMER PASO: para poder crear un proyecto en Rstudio tenemos que ingresar a la parte supirior derecha de esa manera obtendremos una barra donde seleccionaremos NEW PROJECT.
+
+```{r}
+#PRIMER PASO: para poder crear un proyecto en Rstudio tenemos que ingresar a la parte supirior derecha de esa manera obtendremos una barra donde seleccionaremos NEW PROJECT.
+```
+
+```{r}
+
+#SEGUNDO PASO: Despues de a ver seleccionada New Project nos saldra otra barra  donde seleccionaremos NEW DIRECTORY
+```
+
+```{r}
+#TERCER PASO: Una vez realizados esos pasos nos saldra otra barra en la  cual tendremos que eligir Nuevo proyecto (NEW PROJECT)
+
+```
+
+```{r}
+#CUARTO PASO: Luego de aver realizado todo esos pasos nos saldra Create New Project, en lo cual colocaremos el nombre de nuestro proyecto.
+```
+
+```{r}
+#QUINTO PASO: Despues en ese mismo lugar tendremos la opcion de poder direccionar nuestro Proyecto por ejemplo si queremos que este (Escritorio,descargas, etc)
+```
+
+```{r}
+#SEXTO: Como ultimo paso le daremos clik en open para poder guardar nuestro proyecto de lo cual nuestro proyecto esta listo par poder es utilizado.
+```
