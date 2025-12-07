@@ -1,0 +1,70 @@
+---
+title: "SEMANA_4"
+author: "GRUPO_4"
+format: html
+editor: visual
+---
+
+## INTEGRANTES:
+
+1.- Balbin Arce Celeste
+
+2.- Cristiam Snayders Marcos
+
+3.- Durand Gallardo Eimy Naomy
+
+4.- Juarez Leon Nicolle Victoria
+
+5.- Rospigliosi Mendoza Camila
+
+## Cómo descargar un archivo en formato CSV del repositorio GITHUB
+
+#PRIMER PASO
+
+Nos ubicamos en la Guía de Prácticas
+
+#SEGUNDO PASO
+
+Nos dirijimos al repositorio GITHUB
+
+#TERCER PASO
+
+Ingresamos a la carpeta de Data y ubicamos el archivo en formato CSV (ejemplo: s02_treat_artritis.csv)
+
+#CUARTO PASO
+
+Nos dirigimos a “descargar” que se encuentra en la parte superior derecha y descargamos el archivo
+
+#QUINTO PASO
+
+Guardamos en “Descargas” y ya tendríamos nuestro archivo en csv
+
+```{r}
+#PRIMER PASO
+
+Nos ubicamos en la Guía de Prácticas
+```
+
+```{r}
+#SEGUNDO PASO
+
+Nos dirijimos al repositorio GITHUB
+```
+
+```{r}
+#TERCER PASO
+
+Ingresamos a la carpeta de Data y ubicamos el archivo en formato CSV (ejemplo: s02_treat_artritis.csv)
+```
+
+```{r}
+#CUARTO PASO
+
+Nos dirigimos a “descargar” que se encuentra en la parte superior derecha y descargamos el archivo
+```
+
+```{r}
+#QUINTO PASO
+
+Guardamos en “Descargas” y ya tendríamos nuestro archivo en csv
+```
